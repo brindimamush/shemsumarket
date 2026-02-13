@@ -1,5 +1,6 @@
 import uuid
 from datetime import datetime
+from app.models import *
 
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 from sqlalchemy import DateTime
